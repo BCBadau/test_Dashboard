@@ -28,7 +28,7 @@ st.markdown(
 hide_ui_style = """
     <style>
         [data-testid="stSidebar"] { display: none; }
-
+        [data-testid="stToolbar"] { display: none; }
     </style>
 """
 st.markdown(hide_ui_style, unsafe_allow_html=True)
