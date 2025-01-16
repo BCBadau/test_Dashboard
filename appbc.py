@@ -1,5 +1,4 @@
 import streamlit as st
-from dotenv import load_dotenv
 import base64
 
 # Set page configuration
