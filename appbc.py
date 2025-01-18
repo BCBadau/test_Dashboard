@@ -10,7 +10,7 @@ def get_base64_image(image_path):
         return base64.b64encode(image_file.read()).decode()
 
 # Path to your local image
-image_path = "./logo.png"
+image_path = "https://github.com/BCBadau/test_Dashboard/blob/main/logo.png"
 base64_image = get_base64_image(image_path)
 
 # Center Logo and Title with Styling
